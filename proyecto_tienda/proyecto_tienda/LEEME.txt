@@ -1,0 +1,17 @@
+PROYECTO: Mi Tienda (Django, vistas basadas en funciones)
+
+Cómo ejecutarlo:
+  python -m venv venv
+  venv\Scripts\activate            (Mac/Linux: source venv/bin/activate)
+  pip install django
+  python manage.py runserver
+  Abrir http://127.0.0.1:8000/
+
+Usuario de prueba:  admin  /  Admin12345
+
+Datos incluidos en db.sqlite3: 5 marcas, 5 categorías, 5 productos, 7 clientes.
+
+Tarea (Unidad 5):
+  - CRUD Categorías  → /facturacion/categorias/
+  - CRUD Clientes    → /facturacion/clientes/
+  - Reto Mi perfil   → /facturacion/mi-perfil/
